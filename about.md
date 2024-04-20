@@ -1,5 +1,5 @@
 ---
-layout: test.html
+layout: index
 title: About
 ---
 # About page
