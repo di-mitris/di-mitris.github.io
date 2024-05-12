@@ -21,7 +21,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 The Vesuvius Challenge is a machine learning and computer vision competition that aims to extract passages of never-before-seen text from inside an unopened (and unopenable) carbonized scroll. The goal is to use computer vision and image segmentation techniques to extract faded ink from X-rays and other medical scans of papyri that were carbonized during the eruption of Mount Vesuvius.
 
 #### Language Learning App
-Target language to English app. Starting with French/Spanish.
+Target-language to English app. Starting with French/Spanish.
 
 * Web Scraping for Sentences:
 Consider using resources like news articles, blogs, or language learning websites (https://context.reverso.net/translation/).
@@ -45,11 +45,15 @@ Design screens for displaying sentences with blanks and multiple-choice question
 Implement navigation controls and feedback mechanisms to guide users through the learning process and provide insights into their progress.
 
 
-#### Header 4
+#### YouTube thumbnail generator (clickbait)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+
+
+#### RAG in Greek
+
+
+https://medium.com/11tensors/are-llama3-and-mixtral-open-models-ready-for-rag-in-greek-7cc1ab7579ed
+https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-language-model-for-greek-9f5ef1d4a10f
 
 ##### Header 5
 
