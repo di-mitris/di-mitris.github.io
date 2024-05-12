@@ -4,15 +4,12 @@ layout: index
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./about.html).
+[About](./about.html).
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Home
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 ## Current Projects
 
@@ -61,6 +58,7 @@ https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-
 
 
 
+[About](./about.html).
 ```
 The final element.
 ```
