@@ -45,9 +45,6 @@ Design screens for displaying sentences with blanks and multiple-choice question
 Implement navigation controls and feedback mechanisms to guide users through the learning process and provide insights into their progress.
 
 
-#### YouTube thumbnail generator (clickbait)
-
-
 
 #### RAG in Greek
 
@@ -55,20 +52,12 @@ Implement navigation controls and feedback mechanisms to guide users through the
 https://medium.com/11tensors/are-llama3-and-mixtral-open-models-ready-for-rag-in-greek-7cc1ab7579ed
 https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-language-model-for-greek-9f5ef1d4a10f
 
-##### Header 5
+## Demos
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
 
@@ -104,31 +93,6 @@ https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-
   - level 2 item
 - level 1 item
 
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
 ```
 The final element.
