@@ -4,9 +4,6 @@ layout: index
 
 
 # Homepage
-
-[About page](./about.html).
-
 ## Current Projects
 
 #### Vesuvius Challenge
@@ -53,9 +50,5 @@ https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-
 4.  This is an ordered list following a header.
 
 
-
-
-```
 [About page](./about.html).
-```
 
