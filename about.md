@@ -5,4 +5,4 @@ title: About
 # About page
 
 
-This page tells you a little bit about me.
+I'm a python developer. I enjoy books and the sea.
