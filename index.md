@@ -2,20 +2,16 @@
 layout: index
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[About](./about.html).
+# Homepage
 
-
-
-# Home
-
+[About page](./about.html).
 
 ## Current Projects
 
 #### Vesuvius Challenge
 
-The Vesuvius Challenge is a machine learning and computer vision competition that aims to extract passages of never-before-seen text from inside an unopened (and unopenable) carbonized scroll. The goal is to use computer vision and image segmentation techniques to extract faded ink from X-rays and other medical scans of papyri that were carbonized during the eruption of Mount Vesuvius.
+The _Vesuvius Challenge_ is a machine learning and computer vision competition that aims to extract passages of never-before-seen text from inside an unopened (and unopenable) **carbonized scroll**. The goal is to use computer vision and image segmentation techniques to extract faded ink from X-rays and other medical scans of papyri that were carbonized during the eruption of Mount Vesuvius.
 
 #### Language Learning App
 Target-language to English app. Starting with French/Spanish.
@@ -51,15 +47,15 @@ https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-
 
 ## Demos
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  [Simple summary](https://huggingface.co/spaces/di-mitris/demo-1).
+2.  [Wikipedia summary](https://huggingface.co/spaces/di-mitris/demo-2-wiki-summary).
+3.  [Pet classifier](https://huggingface.co/spaces/di-mitris/classifier).
+4.  This is an ordered list following a header.
 
 
 
 
-[About](./about.html).
 ```
-The final element.
+[About page](./about.html).
 ```
 
