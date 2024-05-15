@@ -46,7 +46,8 @@ Implement navigation controls and feedback mechanisms to guide users through the
     A HuggingFace Space that classifies images og dogs and cats.
 5.  [Image Captioning](https://huggingface.co/spaces/di-mitris/Fast-Captions).
     A HuggingFace Space that takes an image and produces a caption (relatively quickly).
-
+6.  [Text to Speech](https://huggingface.co/spaces/di-mitris/TextToSpeech)
+    A HuggingFace Space that rapidly produces audio from text.
 
 ##
 
