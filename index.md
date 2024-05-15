@@ -8,27 +8,25 @@ layout: index
 
 #### Vesuvius Challenge
 
-The _Vesuvius Challenge_ is a machine learning and computer vision competition that aims to extract passages of never-before-seen text from inside an unopened (and unopenable) **carbonized scroll**. The goal is to use computer vision and image segmentation techniques to extract faded ink from X-rays and other medical scans of papyri that were carbonized during the eruption of Mount Vesuvius.
+The [Vesuvius Challenge](https://scrollprize.org/) is a machine learning and computer vision competition that aims to extract passages of never-before-seen text from inside an unopened (and unopenable) **carbonized scroll**. The goal is to use computer vision and image segmentation techniques to extract faded ink from X-rays and other medical scans of papyri that were carbonized during the eruption of Mount Vesuvius.
 
 #### Language Learning App
-Target-language to English app. Starting with French/Spanish.
+An app focused on grammar and vocabulary practice based on multiple choice questions (cloze). Starting with French and Spanish with translations provided in English. Currently working on a Flask implementation, which will then be ported into Flutter. Rough development draft follows.
 
 * Web Scraping for Sentences:
 Consider using resources like news articles, blogs, or language learning websites (https://context.reverso.net/translation/).
 Use Python libraries such as BeautifulSoup or Scrapy to scrape sentences from these sources. Extract text data from HTML elements and store the sentences in a structured format like a list or a database.
 * Extraction of Words for Blanks:
-Once you have a collection of sentences, tokenize each sentence into words or subwords.
-Determine a strategy for selecting words to be replaced with blanks. For example, you could choose nouns, verbs, or words of a certain length.
+Tokenize each sentence into words.
+Determine a strategy for selecting words to be replaced with blanks. Nouns, **verbs**, or words of a certain length.
 Implement a function to replace selected words with blank placeholders (e.g., underscores or empty strings). Ensure that the context of the sentence remains intact after word replacement.
 * Generation of Alternative (False) Answers:
 After identifying the words to be replaced with blanks, generate alternative answers for the multiple-choice questions.
-Use techniques such as synonym replacement, word scrambling, or context-based word selection to generate plausible false answers.
-Ensure that false answers are grammatically correct and contextually relevant to the sentence.
+Synonym replacement, word scrambling, or context-based word selection to generate plausible false answers.
 Store the correct answer and false answers for each question in a structured format like a dictionary or a database.
 * Implementation of Sliding Difficulty Feature:
-Define criteria for adjusting the difficulty level of the multiple-choice questions. This could include factors like word frequency, sentence complexity, or linguistic features.
-Implement a mechanism to dynamically adjust the difficulty level based on user performance or preferences.
-Modify the word selection and false answer generation algorithms to reflect changes in difficulty level. For example, increase the complexity of sentences or choose less common words for blanks at higher difficulty levels.
+Define criteria for adjusting the difficulty level of the multiple-choice questions. This could include factors like word frequency, sentence complexity, or word length.
+Modify the word selection and false answer generation algorithms to reflect changes in difficulty level.
 * User Interface Development:
 Create a user-friendly interface for the language learning app using Python libraries such as Tkinter before eventual deployment as a Flutter app (most likely).
 Design screens for displaying sentences with blanks and multiple-choice questions. Include features for user interaction, such as selecting answers and progressing through questions.
@@ -36,18 +34,19 @@ Implement navigation controls and feedback mechanisms to guide users through the
 
 
 
-#### RAG in Greek
-
-
-https://medium.com/11tensors/are-llama3-and-mixtral-open-models-ready-for-rag-in-greek-7cc1ab7579ed
-https://medium.com/institute-for-language-and-speech-processing/meltemi-a-large-language-model-for-greek-9f5ef1d4a10f
-
 ## Demos
 
-1.  [Simple summary](https://huggingface.co/spaces/di-mitris/demo-1).
-2.  [Wikipedia summary](https://huggingface.co/spaces/di-mitris/demo-2-wiki-summary).
-3.  [Pet classifier](https://huggingface.co/spaces/di-mitris/classifier).
-4.  [Image Captioning](https://huggingface.co/spaces/di-mitris/Fast-Captions).
+1.  [Background Remover](https://shorturl.at/cvzEG).
+    A docker container deployed on GCP Cloud Run (serverless) that can remove the background from an image.
+2.  [Simple summary](https://huggingface.co/spaces/di-mitris/demo-1).
+    A HuggingFace Space that summarizes raw text.
+3.  [Wikipedia summary](https://huggingface.co/spaces/di-mitris/demo-2-wiki-summary).
+    A HuggingFace Space that summarizes a Wikipedia article based on its title (titles without disambiguations work better).
+4.  [Pet classifier](https://huggingface.co/spaces/di-mitris/classifier).
+    A HuggingFace Space that classifies images og dogs and cats.
+5.  [Image Captioning](https://huggingface.co/spaces/di-mitris/Fast-Captions).
+    A HuggingFace Space that takes an image and produces a caption (relatively quickly).
+
 
 ##
 
