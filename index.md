@@ -49,7 +49,8 @@ Implement navigation controls and feedback mechanisms to guide users through the
 6.  [Text to Speech](https://huggingface.co/spaces/di-mitris/TextToSpeech)
     A HuggingFace Space that rapidly produces audio from text.
 
-##
+## Thesis
+Here is a link to my [thesis](https://drive.google.com/file/d/1BUvra2-Q_VPrjHNwgIGKAkRCuEIoBCyn/view?usp=sharing) titled: "Modeling, Prediction and Categorization of elderly fall with deep learning techniques" (in Greek).
 
 [About page](./about.html).
 
