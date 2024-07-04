@@ -4,6 +4,8 @@ layout: index
 
 
 # Homepage
+{LinkedIn Profile](www.linkedin.com/in/dimitrios-alexandridis-49334b273)
+
 ## Current Projects
 
 #### Vesuvius Challenge
