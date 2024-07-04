@@ -4,7 +4,7 @@ layout: index
 
 
 # Homepage
-{LinkedIn Profile](www.linkedin.com/in/dimitrios-alexandridis-49334b273)
+[LinkedIn Profile](www.linkedin.com/in/dimitrios-alexandridis-49334b273)
 
 ## Current Projects
 
@@ -34,7 +34,8 @@ Create a user-friendly interface for the language learning app using Python libr
 Design screens for displaying sentences with blanks and multiple-choice questions. Include features for user interaction, such as selecting answers and progressing through questions.
 Implement navigation controls and feedback mechanisms to guide users through the learning process and provide insights into their progress.
 
-
+#### News aggregator site
+Currently setting up a news aggregator, to feature a rolling feed of breaking news in a 48-hour cycle.
 
 ## Demos
 
