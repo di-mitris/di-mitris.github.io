@@ -4,7 +4,7 @@ layout: index
 
 
 # Homepage
-[LinkedIn Profile](https://www.linkedin.com/in/dimitrios-alexandridis-49334b273)
+-----> [LinkedIn Profile](https://www.linkedin.com/in/dimitrios-alexandridis-49334b273)
 
 ## Current Projects
 
