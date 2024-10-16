@@ -25,7 +25,7 @@ Implement a function to replace selected words with blank placeholders.
 Synonym replacement, word scrambling, or context-based word selection to generate plausible false answers.
 Store the correct answer and false answers for each question in a structured format like a dictionary or a database.
 * User Interface Development:
-Create a user-friendly interface for the language learning app using Python libraries such as Tkinter before eventual deployment as a Flutter app (most likely).
+Create a user-friendly interface for the language learning app using Python libraries such as Tkinter before eventual deployment as a Flutter app.
 Implement navigation controls and feedback mechanisms to guide users through the learning process and provide insights into their progress.
 
 #### News aggregator site
@@ -34,7 +34,7 @@ Currently setting up a news aggregator, to feature a rolling feed of breaking ne
 ## Demos
 
 1.  [Simple game with CI/CD](http://cicdgame.s3-website-us-east-1.amazonaws.com).
-    A simple Javascript game that uses AWS Code Pipeline to automatically update on push to Github.
+    A simple Javascript game that uses AWS Code Pipeline to automatically update on push to Github. Repo [here](https://github.com/di-mitris/codepipeline-s3-game).
 2.  [Background Remover](https://test-img-1044824125830.europe-central2.run.app).
     A docker container deployed on GCP Cloud Run (serverless) that can remove the background from an image.
 3.  [Simple summary](https://huggingface.co/spaces/di-mitris/demo-1).
