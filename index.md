@@ -16,19 +16,16 @@ The [Vesuvius Challenge](https://scrollprize.org/) is a machine learning and com
 An app focused on grammar and vocabulary practice based on multiple choice questions (cloze). Starting with French and Spanish with translations provided in English. Currently working on a Flask implementation, which will then be ported into Flutter. Rough development draft follows.
 
 * Web Scraping for Sentences:
-Use resources like news articles, blogs, or language learning websites (https://context.reverso.net/translation/).
-Use Python libraries such as BeautifulSoup or Scrapy to scrape sentences from these sources. Extract text data from HTML elements and store the sentences in a structured format like a list or a database.
+Use resources like news articles or language learning websites (https://context.reverso.net/translation/).
+Use Python libraries such as BeautifulSoup or Scrapy to scrape sentences from these sources and store the sentences in a structured format like a list or a database.
 * Extraction of Words for Blanks:
-Tokenize each sentence into words.
-Determine a strategy for selecting words to be replaced with blanks. Nouns, **verbs**, or words of a certain length.
-Implement a function to replace selected words with blank placeholders (e.g., underscores or empty strings). Ensure that the context of the sentence remains intact after word replacement.
+Tokenize each sentence into words. Determine a strategy for selecting words to be replaced with blanks. Nouns, **verbs**, or words of a certain length.
+Implement a function to replace selected words with blank placeholders.
 * Generation of Alternative (False) Answers:
-After identifying the words to be replaced with blanks, generate alternative answers for the multiple-choice questions.
 Synonym replacement, word scrambling, or context-based word selection to generate plausible false answers.
 Store the correct answer and false answers for each question in a structured format like a dictionary or a database.
 * User Interface Development:
 Create a user-friendly interface for the language learning app using Python libraries such as Tkinter before eventual deployment as a Flutter app (most likely).
-Design screens for displaying sentences with blanks and multiple-choice questions. Include features for user interaction, such as selecting answers and progressing through questions.
 Implement navigation controls and feedback mechanisms to guide users through the learning process and provide insights into their progress.
 
 #### News aggregator site
