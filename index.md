@@ -4,7 +4,34 @@ layout: index
 
 
 # Homepage
------> [LinkedIn Profile](https://www.linkedin.com/in/dimitrios-alexandridis-49334b273)
+I'm a Python and R developer interested in statistics -----> [LinkedIn Profile](https://www.linkedin.com/in/dimitrios-alexandridis-49334b273)
+
+
+
+## Demos
+
+1.  [Background Remover](https://shorturl.at/cvzEG)
+    A docker container deployed on GCP Cloud Run (serverless) that can remove the background from an image.
+2.  [Excel demo](https://1drv.ms/x/c/c1f2105e451df39e/Ea5dTIaeEkpLuHuQ8xMRt2kBZlb2Yc3dK9lWNrJZNLhY9g?e=Bofrg6)
+    A simple excel spreadsheet with slicers.
+3.  [Power BI Accounting Dashboard](https://drive.google.com/file/d/1RRZjAgzBXe6BdCIeFg1qIi0CuBJMd1Mi/view?usp=sharing)
+    [Also in pdf format](https://drive.google.com/file/d/1htELSPWr9nzC66PF5FfazWa6AP_Aprvd/view?usp=sharing)
+4.  [JavaScript App](http://cicdgame.s3-website-us-east-1.amazonaws.com/)
+    A card matching game deployed on AWS with CI/CD pipeline.
+
+
+## HuggingFace Spaces
+
+1.  [Simple summary](https://huggingface.co/spaces/di-mitris/demo-1)
+    A HuggingFace Space that summarizes raw text.
+2.  [Wikipedia summary](https://huggingface.co/spaces/di-mitris/demo-2-wiki-summary)
+    A HuggingFace Space that summarizes a Wikipedia article based on its title (titles without disambiguations work better).
+3.  [Pet classifier](https://huggingface.co/spaces/di-mitris/classifier)
+    A HuggingFace Space that classifies images og dogs and cats.
+4.  [Image Captioning](https://huggingface.co/spaces/di-mitris/Fast-Captions)
+    A HuggingFace Space that takes an image and produces a caption (relatively quickly).
+5.  [Text to Speech](https://huggingface.co/spaces/di-mitris/TextToSpeech)
+    A HuggingFace Space that rapidly produces audio from text.
 
 ## Current Projects
 
@@ -15,42 +42,8 @@ The [Vesuvius Challenge](https://scrollprize.org/) is a machine learning and com
 #### Language Learning App
 An app focused on grammar and vocabulary practice based on multiple choice questions (cloze). Starting with French and Spanish with translations provided in English. Currently working on a Flask implementation, which will then be ported into Flutter. Rough development draft follows.
 
-* Web Scraping for Sentences:
-Consider using resources like news articles, blogs, or language learning websites (https://context.reverso.net/translation/).
-Use Python libraries such as BeautifulSoup or Scrapy to scrape sentences from these sources. Extract text data from HTML elements and store the sentences in a structured format like a list or a database.
-* Extraction of Words for Blanks:
-Tokenize each sentence into words.
-Determine a strategy for selecting words to be replaced with blanks. Nouns, **verbs**, or words of a certain length.
-Implement a function to replace selected words with blank placeholders (e.g., underscores or empty strings). Ensure that the context of the sentence remains intact after word replacement.
-* Generation of Alternative (False) Answers:
-After identifying the words to be replaced with blanks, generate alternative answers for the multiple-choice questions.
-Synonym replacement, word scrambling, or context-based word selection to generate plausible false answers.
-Store the correct answer and false answers for each question in a structured format like a dictionary or a database.
-* Implementation of Sliding Difficulty Feature:
-Define criteria for adjusting the difficulty level of the multiple-choice questions. This could include factors like word frequency, sentence complexity, or word length.
-Modify the word selection and false answer generation algorithms to reflect changes in difficulty level.
-* User Interface Development:
-Create a user-friendly interface for the language learning app using Python libraries such as Tkinter before eventual deployment as a Flutter app (most likely).
-Design screens for displaying sentences with blanks and multiple-choice questions. Include features for user interaction, such as selecting answers and progressing through questions.
-Implement navigation controls and feedback mechanisms to guide users through the learning process and provide insights into their progress.
-
 #### News aggregator site
 Currently setting up a news aggregator, to feature a rolling feed of breaking news in a 48-hour cycle.
-
-## Demos
-
-1.  [Background Remover](https://shorturl.at/cvzEG).
-    A docker container deployed on GCP Cloud Run (serverless) that can remove the background from an image.
-2.  [Simple summary](https://huggingface.co/spaces/di-mitris/demo-1).
-    A HuggingFace Space that summarizes raw text.
-3.  [Wikipedia summary](https://huggingface.co/spaces/di-mitris/demo-2-wiki-summary).
-    A HuggingFace Space that summarizes a Wikipedia article based on its title (titles without disambiguations work better).
-4.  [Pet classifier](https://huggingface.co/spaces/di-mitris/classifier).
-    A HuggingFace Space that classifies images og dogs and cats.
-5.  [Image Captioning](https://huggingface.co/spaces/di-mitris/Fast-Captions).
-    A HuggingFace Space that takes an image and produces a caption (relatively quickly).
-6.  [Text to Speech](https://huggingface.co/spaces/di-mitris/TextToSpeech)
-    A HuggingFace Space that rapidly produces audio from text.
 
 ## Thesis
 Here is a link to my [thesis](https://drive.google.com/file/d/1BUvra2-Q_VPrjHNwgIGKAkRCuEIoBCyn/view?usp=sharing) titled: "Modeling, Prediction and Categorization of elderly fall with deep learning techniques" (in Greek).
