@@ -18,6 +18,8 @@ I'm a Python and R developer interested in statistics -----> [LinkedIn Profile](
     [Also in pdf format](https://drive.google.com/file/d/1htELSPWr9nzC66PF5FfazWa6AP_Aprvd/view?usp=sharing)
 4.  [JavaScript App](http://cicdgame.s3-website-us-east-1.amazonaws.com/)
     A card matching game deployed on AWS with CI/CD pipeline.
+5.  [Natural Language Processing Demo](https://nbviewer.org/github/di-mitris/ml-ai-projects/blob/9c23b13b5c012005453a1713958671c35cae8e51/NLP/word2vec-demo/word2vec-demo.ipynb)
+    A jupyter notebook utilizing Word2Vec to explore relationships between words in a twitter dataset.
 
 
 ## HuggingFace Spaces
